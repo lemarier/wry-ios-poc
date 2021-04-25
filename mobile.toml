@@ -1,0 +1,8 @@
+[app]
+name = "test-cargo-mobile"
+stylized-name = "Test Cargo Mobile"
+domain = "lemarier.ca"
+template-pack = "winit"
+
+[apple]
+development-team = "3KF8V3679C"
