@@ -59,7 +59,7 @@ checksum = "0d8c1fef690941d3e7788d328517591fecc684c084084702d6ff1641e993699a"
 [[package]]
 name = "cacao"
 version = "0.1.0"
-source = "git+https://github.com/lemarier/cacao?branch=trunk#e5eeec73c5e71808412d3fbeb9d1552357442175"
+source = "git+https://github.com/lemarier/cacao?branch=fix/webview-ios#15310439438210324129de24f440f3ea0527d933"
 dependencies = [
  "block",
  "core-foundation",
