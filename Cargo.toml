@@ -21,4 +21,4 @@ ndk-glue = "0.2.1"
 
 [target.'cfg(not(target_os = "android"))'.dependencies]
 simple_logger = "1.11.0"
-cacao = { git = "https://github.com/lemarier/cacao", branch = "fix/webview-ios", features = ["webview"] }
+cacao = { git = "https://github.com/lemarier/cacao", branch = "tmp", features = ["webview"] }

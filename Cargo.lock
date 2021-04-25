@@ -57,20 +57,37 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0d8c1fef690941d3e7788d328517591fecc684c084084702d6ff1641e993699a"
 
 [[package]]
+name = "byteorder"
+version = "1.4.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "14c189c53d098945499cdfa7ecc63567cf3886b3332b312a5b4585d8d3a6a610"
+
+[[package]]
 name = "cacao"
 version = "0.1.0"
-source = "git+https://github.com/lemarier/cacao?branch=fix/webview-ios#15310439438210324129de24f440f3ea0527d933"
+source = "git+https://github.com/lemarier/cacao?branch=tmp#8ea3fbc1615571ab828b6da4d0a9df706e1deda0"
 dependencies = [
  "block",
  "core-foundation",
  "core-graphics",
  "dispatch",
+ "infer",
  "lazy_static",
  "libc",
  "objc",
  "objc_id",
  "os_info",
  "url",
+]
+
+[[package]]
+name = "cfb"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ca453e8624711b2f0f4eb47076a318feda166252a827ee25d067b43de83dcba0"
+dependencies = [
+ "byteorder",
+ "uuid",
 ]
 
 [[package]]
@@ -262,6 +279,15 @@ dependencies = [
  "matches",
  "unicode-bidi",
  "unicode-normalization",
+]
+
+[[package]]
+name = "infer"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f92b41dab759f9e8427c03f519c344a14655490b8db548dac1e57a75b3258391"
+dependencies = [
+ "cfb",
 ]
 
 [[package]]
@@ -640,6 +666,12 @@ dependencies = [
  "matches",
  "percent-encoding",
 ]
+
+[[package]]
+name = "uuid"
+version = "0.8.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bc5cf98d8186244414c848017f0e2676b3fcb46807f6668a97dfe67359a3c4b7"
 
 [[package]]
 name = "wasi"
