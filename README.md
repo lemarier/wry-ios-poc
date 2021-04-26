@@ -16,6 +16,8 @@ cargo install --git https://github.com/BrainiumLLC/cargo-mobile
 cargo apple open
 ```
 
+**Important: You need to link Webview Framework in build settings**
+
 ### Run on your connected phone
 
 ```bash

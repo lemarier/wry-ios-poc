@@ -65,7 +65,7 @@ checksum = "14c189c53d098945499cdfa7ecc63567cf3886b3332b312a5b4585d8d3a6a610"
 [[package]]
 name = "cacao"
 version = "0.1.0"
-source = "git+https://github.com/lemarier/cacao?branch=tmp#8ea3fbc1615571ab828b6da4d0a9df706e1deda0"
+source = "git+https://github.com/ryanmcgrath/cacao?branch=trunk#be6ff21d111fcbf5c71a04c299b237279dcd10ed"
 dependencies = [
  "block",
  "core-foundation",
